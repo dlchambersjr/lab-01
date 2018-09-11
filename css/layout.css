@@ -8,55 +8,56 @@ body {
 }
 
 header {
-background-color: plum;
+background-color:#E6B0AA;
 height: 75px;
+
 }
 
 nav {
-background-color: rosybrown;
+background-color: #C39BD3;
 height: 150px;
 }
 
 #c {
-  background-color: palegreen;
+  background-color: #5499C7;
   height:125px;
 }
 
 #d {
-  background-color: teal;
+  background-color: #45B39D  ;
   height:125px;
 }
 
 #e {
-  background-color: rebeccapurple;
+  background-color: #F4D03F;
     width:240px;
     height:250px;
     float:left;
   }
 
 #f {
-background-color: lightblue;
+background-color: #D35400;
   width:240px;
   height:250px;
   float:right;
  }
 
 #g {
-  background-color: lightgreen;
+  background-color: #F39C12;
   width:240px;
   height:250px;
   float: left;
 }
 
 #h {
-  background-color: lightyellow;
+  background-color: #BDC3C7;
   width:240px;
   height:250px;
   float: left;
 }
 
 footer {
-  background-color: lightgrey;
+  background-color: #34495E  ;
   height:80px;
   clear: both;
 }
@@ -74,7 +75,7 @@ body {
 header {
   background-color: plum;
   height: 100px;
-  }
+    }
   
   nav {
     background-color: rosybrown;
@@ -85,7 +86,7 @@ header {
   }
   
   #c {
-    background-color: palegreen;
+    background-color: palevioletred;
     width: 380px;
     height:200px;
     float: left;
@@ -106,34 +107,31 @@ section.e-h {
     background-color: rebeccapurple;
       width:190px;
       height:250px;
-      /* float:left; */
     }
   
   #f {
     background-color: lightblue;
     width:190px;
     height:250px;
-    /* float: left; */
    }
   
   #g {
     background-color: lightgreen;
     width:190px;
     height:250px;
-    /* float: left; */
   }
   
   #h {
     background-color: lightyellow;
     width:190px;
-      height:250px;
-      /* float: left; */
+    height:250px;
   }
   
   footer {
     background-color: lightgrey;
     width: 760px;
     height: 150px;
+    clear: none;
     float:right;
   }
 
