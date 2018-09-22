@@ -2,12 +2,12 @@
 @media screen and (max-width: 479px) {
 
   header {
-    background-color:#E6B0AA;
+    background-color:rgb(184, 230, 170);
     height: 75px;
   }
 
   nav {
-    background-color: #C39BD3;
+    background-color: rgb(200, 155, 211);
     height: 150px;
   }
 
@@ -22,11 +22,11 @@
   }
 
   #c {
-    background-color: #5499C7;
+    background-color: rgb(199, 84, 122);
   }
 
   #d {
-    background-color: #45B39D  ;
+    background-color: rgb(246, 7, 226)  ;
   }
 
   .e-h {
@@ -40,34 +40,35 @@
   }
 
   #e {
-    background-color: #F4D03F;
+    background-color: rgb(63, 244, 199);
   }
 
   #f {
-  background-color: #D35400;
+  background-color: rgb(0, 32, 211);
   }
 
   #g {
-    background-color: #F39C12;
+    background-color: rgb(243, 239, 18);
   }
 
   #h {
-    background-color: #BDC3C7;
+    background-color: rgb(39, 126, 72);
   }
 
   footer {
-    background-color: #34495E;
+    background-color: rgb(255, 150, 150);
     height: 80px;
   }
+
 }
 
 /* TABLET STYLING BEGINS HERE */
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width:480px) and (max-width: 769px) {
 
   header {
     background-color:#E6B0AA;
-    height: 100px;
+    height: 75px;
   }
 
   
@@ -124,4 +125,92 @@
     background-color: #34495E;
     height: 80px;
   }
+
+  p {
+    font-size: 150%;
+  }
+
+}
+
+
+/* DESKTOP STYLING BEGINS HERE */
+
+@media screen and (min-width:770px) {
+
+  header {
+    background-color:rgb(224, 34, 12);
+    height: 100px;
+  }
+
+  .tablet-desktop {
+    display:flex;
+    flex-wrap:wrap;
+
+  }
+  
+  nav {
+    background-color: rgb(180, 17, 245);
+    width: 20%;
+    height: 600px;
+  }
+
+  .c-h {
+    margin: 0px;
+    width: 80%;  
+  }
+
+  .c-d {
+    margin:0px;
+    display:flex;
+    flex-wrap:wrap;
+  }
+
+  #c, #d {
+    width: 50%;
+    height: 200px;
+  }
+
+  #c {
+    background-color: rgb(0, 152, 253);
+  }
+
+  #d {
+    background-color: rgb(226, 11, 215)  ;
+  }
+
+  .e-h {
+    display: flex;
+    flex-wrap:wrap;
+  }
+
+  #e, #f, #g, #h {
+    width: 25%;
+    height: 250px;
+  }
+
+  #e {
+    background-color: rgb(244, 99, 63);
+  }
+
+  #f {
+    background-color: rgb(32, 0, 211);
+  }
+
+  #g {
+    background-color: rgb(18, 209, 243);
+  }
+
+  #h {
+    background-color: rgb(189, 199, 190);
+  }
+
+  footer {
+    background-color: rgb(243, 239, 28);
+    height: 25%;
+  }
+
+  p {
+    font-size: 200%;
+  }
+
 }
