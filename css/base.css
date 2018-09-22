@@ -1,6 +1,12 @@
-p {
+body {
+  width: 100%;
+  font: normal 100% verdana, arial, sans-serif;
+ }
+
+
+/* p {
   top: 30%;
   margin: 0px 0px;
   display: block;
   position: relative;
-}
+} */

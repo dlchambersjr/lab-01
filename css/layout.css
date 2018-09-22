@@ -1,244 +1,127 @@
-/* MOBILE SCREEN */
-@media only screen and (min-width: 480px) {
-
-  body {
-    width: 480px;
-    height: 1055px;
-      font-size:24px;
-    font-weight: bold;
-  }
+/* MOBILE STYLING BEGINS HERE */
+@media screen and (max-width: 479px) {
 
   header {
     background-color:#E6B0AA;
-    height: 7.1%;
-    display:flex;
-    justify-content:center;
-    align-content: center;
-
+    height: 75px;
   }
 
   nav {
     background-color: #C39BD3;
-    height: 14.2%;
+    height: 150px;
   }
 
-section.c-d {
-  width:100%;
-  height: 23.7%;
-}
+  .c-d {
+    display: flex;
+    flex-wrap:wrap;
+  }
+
+  #c, #d {
+    width: 100%;
+    height: 125px;
+  }
 
   #c {
     background-color: #5499C7;
-    height:50%;
-
   }
 
   #d {
     background-color: #45B39D  ;
-    height:50%;
   }
 
-  section.e-h {
-    width:100%;
-    height:47.3%;
+  .e-h {
+    display: flex;
+    flex-wrap:wrap;
+  }
+
+  #e, #f, #g, #h {
+    width: 50%;
+    height: 250px;
   }
 
   #e {
     background-color: #F4D03F;
-    width:50%;
-    height:23.7%;
-    float:left;
-    }
+  }
 
   #f {
   background-color: #D35400;
-  width:50%;
-  height:23.7%;
-  float:right;
   }
 
   #g {
     background-color: #F39C12;
-    width:50%;
-    height:23.7%;
-    float: left;
   }
 
   #h {
     background-color: #BDC3C7;
-    width:50%;
-    height:23.7%;
-    float: left;
   }
 
   footer {
-    background-color: #34495E  ;
-    height:7.6%;
-    clear: both;
+    background-color: #34495E;
+    height: 80px;
   }
 }
 
-/* TABLET */
-@media only screen and (min-width: 769px){
+/* TABLET STYLING BEGINS HERE */
 
-  body {
-    width: 1023px;
-    height: 700px;
-    margin:0px auto;
-    font-size:24px;
-    font-weight: bold;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-  }
+@media screen and (max-width: 1024px) {
 
   header {
-    background-color:rgb(228, 37, 15);
-    width: 100%;
-    height: 14.3%;
-  }
-
-  nav {
-    background-color: rgb(138, 21, 184);
-    Width: 20%;
-    height: 100%;
-  }
-
-section.c-d {
-  width: 80%;
-  height: 40%;
-  display:flex;
-  flex-wrap: wrap;
-}
-
-  #c {
-    background-color: rgb(10, 54, 83);
-    width: 50%;
-    height:100%;
-  }
-
-  #d {
-    background-color: rgb(17, 228, 185)  ;
-    width: 50%;
-    height:100%;
-  }
-
-  section.e-h {
-    width: 80%;
-    height:19.8%;
-    width:19.8%;
-    height:100%;
-    display:flex;
-    flex-wrap: wrap;
-  }
-
-  #e {
-    background-color: rgb(241, 213, 97);
-    width:19.8%;
-    height:100%;
-    float:left;
-    }
-
-  #f {
-  background-color: rgb(165, 71, 8);
-  width:19.8%;
-  height:100%;
-  float:right;
-  }
-
-  #g {
-    background-color: rgb(224, 207, 178);
-    width:19.8%;
-    height:100%;
-    float: left;
-  }
-
-  #h {
-    background-color: rgb(1, 20, 32);
-    width:19.8%;
-    height:100%;
-    float: left;
-  }
-
-  footer {
-    background-color: rgb(125, 167, 209)  ;
-    width:80%;
-    height:21.4%;
-    clear: both;
-  }
-}
-
-/* DESCKTOP */
-@media only screen and (min-width: 1024px){
-
-  body {
-    width: 1024px;
-    margin: 0px auto;
-    font-size:24px;
-    font-weight: bold;
-    text-align: center;
-  }
-
-  header {
-    background-color: plum;
+    background-color:#E6B0AA;
     height: 100px;
   }
 
+  
   nav {
-    background-color: rosybrown;
-    width: 200px;
-    height: 600px;
-    float: left;
-    border-color: 1px solid black;
+    background-color: #C39BD3;
+    height: 150px;
+  }
+
+  .c-d {
+    display: flex;
+    flex-wrap:wrap;
+  }
+
+  #c, #d {
+    width: 100%;
+    height: 125px;
   }
 
   #c {
-    background-color: palevioletred;
-    width: 380px;
-    height:200px;
-    float: left;
+    background-color: #5499C7;
   }
 
   #d {
-    background-color: teal;
-    width: 380px;
-    height: 200px;
-    float: right;
+    background-color: #45B39D  ;
   }
 
-  section.e-h {
-    float:left;
+  .e-h {
+    display: flex;
+    flex-wrap:wrap;
+  }
+
+  #e, #f, #g, #h {
+    width: 50%;
+    height: 250px;
   }
 
   #e {
-    background-color: rebeccapurple;
-    width:190px;
-    height:250px;
+    background-color: #F4D03F;
   }
 
   #f {
-    background-color: lightblue;
-    width:190px;
-    height:250px;
+  background-color: #D35400;
   }
 
   #g {
-    background-color: lightgreen;
-    width:190px;
-    height:250px;
+    background-color: #F39C12;
   }
 
   #h {
-    background-color: lightyellow;
-    width:190px;
-    height:250px;
+    background-color: #BDC3C7;
   }
 
   footer {
-    background-color: lightgrey;
-    width: 1024px;
-    height: 150px;
-    clear: none;
-    float:right;
+    background-color: #34495E;
+    height: 80px;
   }
 }
